@@ -1,3 +1,16 @@
+.nav-font {
+  text-decoration: inherit;
+  font-size: 1.5rem;
+  color: #22283A;
+  justify-content: space-between;
+}
+.header-box {
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem 0 1.5rem;
+  border: 1px double #e0e0e0;
+  background-color: #F6F6F6;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -160,11 +173,28 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.nav-header {
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem 0 1.5rem;
+  border: 1px double #e0e0e0;
+  background-color: #F6F6F6;
+}
+.nav-header a {
+  text-decoration: inherit;
+  font-size: 1.5rem;
+  color: #22283A;
+  justify-content: space-between;
+}
+.nav-header .logo {
+  font-size: 3.7rem;
+  padding-bottom: 1rem;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
   padding: 20px 0;
-  border: 1px double #e0e0e0;
+  border: 1px solid #e0e0e0;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -175,6 +205,9 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro img {
+  border-radius: 5px;
 }
 .home .space-images {
   display: flex;
