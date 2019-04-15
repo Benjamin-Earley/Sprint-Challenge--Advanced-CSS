@@ -184,12 +184,12 @@ p {
   display: flex;
   justify-content: center;
 }
-.nav-header .nav-div {
-  width: 27%;
+.nav-header nav .nav-div {
+  width: 341px;
   display: flex;
   justify-content: space-between;
 }
-.nav-header .nav-div a {
+.nav-header nav .nav-div a {
   align-items: center;
   text-decoration: inherit;
   font-size: 1.5rem;
@@ -216,6 +216,7 @@ footer {
   padding: 0 15px;
 }
 .home .intro img {
+  width: 100%;
   border-radius: 5px;
 }
 .home .space-images {
@@ -263,6 +264,11 @@ footer {
   color: #F6F7F8;
   font-family: inherit;
   font-size: 18px;
+}
+.home .walk .walk-text .btn:hover {
+  background: #F6F7F8;
+  color: #22283A;
+  cursor: pointer;
 }
 .home .walk .walk-img {
   width: 46%;
