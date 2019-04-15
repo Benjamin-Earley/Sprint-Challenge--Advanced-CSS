@@ -211,7 +211,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home {
-    max-width: 80%;
+    max-width: 100%;
     margin: auto;
   }
 }
@@ -279,6 +279,7 @@ footer {
     width: 100%;
     padding: 2%;
     margin-top: 4%;
+    margin-bottom: 4%;
   }
 }
 .home .walk .walk-text {
