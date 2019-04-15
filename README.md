@@ -42,7 +42,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
-    It allows whatever the default browzer font-size is to be equal to 1.6rem. This makes it easier to calculate and be consistent with font-size across different browzers.
+    It allows the conversion of pixels to rem to be the pixels / 10. This makes it easier to calculate and be consistent with font-size across different browzers.
 
 4. How would you describe preprocessing to someone new to CSS?
 
